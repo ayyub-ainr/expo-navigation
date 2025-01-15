@@ -9,13 +9,15 @@
     "newArchEnabled": true,
     "scheme": "exponavigation",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ainur-dev.exponavigation"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ainur_dev.exponavigation"
     },
     "web": {
       "favicon": "./assets/favicon.png"
